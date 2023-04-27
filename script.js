@@ -1,0 +1,5 @@
+var a = 5,
+  b = 10,
+  c = 20;
+
+console.log(a + c);
