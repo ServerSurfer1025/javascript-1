@@ -1,5 +1,23 @@
-var a = 5,
-  b = 10,
-  c = 20;
+//string
+let name = "Terrian Heck";
 
-console.log(a + c);
+// number
+let favoriteNumber = 5;
+
+// object
+let person = {
+  name: "Terrian",
+  favoriteNumber: 56,
+  eyeColor: "brown",
+  house: {
+    address: "4531 NW 33rd",
+    color: "Brown",
+    zip: 11892,
+  },
+};
+
+// array
+
+let heights = [45, 20, 45, 13, 6, 2];
+
+//function
