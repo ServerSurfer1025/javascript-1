@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieving Data</title>
+    <style>
+        form {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #firstName,
+        #lastName {
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: aquamarine;
+            box-shadow: 1px 1px rgba(0, 0, 0, 0.272), -1px -1px rgba(0, 0, 0, 0.272);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Party R.S.V.P</h1>
+    <form name="partyForm" onsubmit="return addAttendee();">
+        <label for="firstName">First Name</label>
+        <input type="text" name="finame" id="firstName" /><br />
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lasname" id="lastName" /><br />
+        <button type="submit">Confirmed</button>
+    </form>
+    <ul id="confirmed"></ul>
+    <script src="./retrieve.js"></script>
+</body>
+
+</html>
